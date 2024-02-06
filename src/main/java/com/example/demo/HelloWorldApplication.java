@@ -16,7 +16,7 @@ public class HelloWorldApplication {
 	
 	@GetMapping
 	public String status() throws UnknownHostException {
-		return "status-up"+InetAddress.getLocalHost().toString();
+		return "status--up"+InetAddress.getLocalHost().toString();
 	}
 
 }
